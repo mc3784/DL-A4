@@ -21,7 +21,7 @@ end
 
 --print(model.s)
 
-model_file = "/scratch/ajr619/lstm/model.net87.367553621956"
+model_file = "model.net87.367553621956"
 print ("Loading model "..model_file)
 m = torch.load(model_file)
 model.core_network = m.core_network
