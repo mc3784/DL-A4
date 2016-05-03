@@ -1,7 +1,7 @@
 require 'nngraph'
 require('base')
 ptb = require('data')
-model = torch.load("bestmodel/model.net87.367553621956")
+model = torch.load("model.net87.367553621956")
 
 function reset_state(state)
     state.pos = 1
