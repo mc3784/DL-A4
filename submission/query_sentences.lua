@@ -7,7 +7,7 @@ require 'io'
 ptb = require('data')
 
 params = {}
-params.rnn_size = 200
+params.rnn_size = 600
 params.layers = 2
 params.gru = false
 params.seq_length = 20
